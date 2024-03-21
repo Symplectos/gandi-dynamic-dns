@@ -4,8 +4,6 @@ Python script to update DNS records managed by [Gandi](https://gandi.net). Usefu
 Uses the [ipify API](https://www.ipify.org/) to get the public IPv4 and IPv6 addresses of the server running the script.
 Each specified record in a specified domain is then updated, if, and only if, the A or AAAA record known by Gandi does not match the corresponding IP address returned by ipify.
 
-**Note**: This project is managed on [Codeberg](https://codeberg.org).
-
 ## Installation
 Installation is straightforward.
 
@@ -83,3 +81,11 @@ The script automatically logs its last run in the **gandiDynDNS.log** file.
 # References
 * [Gandi API](https://api.gandi.net/docs/livedns/)
 * [ipify API](https://www.ipify.org/)
+
+# Repositories
+
+Main Repository on [GitLab](https://gitlab.com/Symplectos/gandi-dynamic-dns).
+
+Push Mirrors:
+* [Codeberg](https://codeberg.org/Symplectos/gandi-dynamic-dns) <3
+* [GitHub](https://github.com/Symplectos/gandi-dynamic-dns)
