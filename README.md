@@ -1,5 +1,5 @@
 # Gandi Dynamic DNS
-Python script to update DNS records managed by [Gandu](https://gandi.net). Useful for home servers with dynamic IP addresses.
+Python script to update DNS records managed by [Gandi](https://gandi.net). Useful for home servers with dynamic IP addresses.
 
 Uses the [ipify API](https://www.ipify.org/) to get the public IPv4 and IPv6 addresses of the server running the script.
 Each specified record in a specified domain is then updated, if, and only if, the A or AAAA record known by Gandi does not match the corresponding IP address returned by ipify.
